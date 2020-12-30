@@ -1,7 +1,10 @@
 <template>
 	<div>
-		<ul v-for="dado in dados">
-			<li v-show="!dado.is_hidden">{{dado.ability.name}}</li>
+        <label class="text-gray-700 text-xl font-bold">Habilidades</label>
+		<ul>
+			<li v-for="dado in dados" v-show="!dado.is_hidden">
+                {{dado.ability.name}}
+            </li>
 		</ul>
 	</div>
 </template>
