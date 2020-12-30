@@ -10,8 +10,9 @@ export default {
 			component: Pokedex
 		},
 		{
-			path: '/pokemon',
-			component: Pokemon
+			path: '/pokemon/:id',
+			component: Pokemon,
+			props: true
 		}
 	]
 };
