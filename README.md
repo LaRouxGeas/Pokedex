@@ -13,7 +13,7 @@ Para executar o projeto precisa-se de um ambiente linux com os seguintes pacotes
 - XML PHP Extension
 - Composer [página de instruções para download]<https://getcomposer.org/download/>
 
-##Fazer o clone do projeto
+## Fazer o clone do projeto
 
 Após a instalação desses pacotes em um ambiente, preferencialmente em linux/mac, faça o clone desse repositório:
 >git clone https://github.com/LaRouxGeas/Pokedex.git
