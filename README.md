@@ -11,9 +11,14 @@ Para executar o projeto precisa-se de um ambiente linux com os seguintes pacotes
 - PDO PHP Extension
 - Tokenizer PHP Extension
 - XML PHP Extension
-- Composer
+- Composer [página de instruções para download]<https://getcomposer.org/download/>
 
-Após a instalação desses pacotes em um ambiente, preferencialmente em linux/mac, entre no diretório do projeto e utiliza-se o comando do composer:
+##Fazer o clone do projeto
+
+Após a instalação desses pacotes em um ambiente, preferencialmente em linux/mac, faça o clone desse repositório:
+>git clone https://github.com/LaRouxGeas/Pokedex.git
+
+Depois, entre no diretório do projeto e utiliza-se o comando do composer, onde ele baixara as outras bibliotecas:
 >composer install
 
 ## Executar o projeto
