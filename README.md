@@ -1,4 +1,4 @@
-## Installar o Projeto
+## Instalar o Projeto
 
 Para executar o projeto precisa-se de um ambiente linux com os seguintes pacotes instalados:
 - PHP >= 7.2.5
@@ -13,13 +13,13 @@ Para executar o projeto precisa-se de um ambiente linux com os seguintes pacotes
 - XML PHP Extension
 - Composer
 
-Após a installação desses pacotes em um ambiente, preferencialmente em linux/mac, entre no diretorio do projeto e utiliza-se o comando do composer:
+Após a instalação desses pacotes em um ambiente, preferencialmente em linux/mac, entre no diretório do projeto e utiliza-se o comando do composer:
 >composer install
 
 ## Executar o projeto
 
-Para começar a rodar a aplicação só preceisa executar o comando artisan:
+Para começar a rodar a aplicação só precisa executar o comando artisan:
 >sudo php artisan serve --host 0.0.0.0 --port 8000
 
-Também é possivel ajutar as variaveis acima para que fique como localhost:
+Também é possível ajustar as variáveis acima para que fique como localhost:
 >sudo php artisan serve --host 127.0.0.1 --port 8000
