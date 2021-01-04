@@ -23,6 +23,14 @@ Depois, entre no diretório do projeto e utiliza-se o comando do composer, onde 
 
 ## Executar o projeto
 
+Antes de rodar o aplicativo o Laraver precisa do arquivo .env que contem as configurações da aplicação
+Para gerar um .env podera executar o seguinte comandos:
+>cp .env.example .env
+
+e depois
+>php artisan key:generate
+
+
 Para começar a rodar a aplicação só precisa executar o comando artisan:
 >sudo php artisan serve --host 0.0.0.0 --port 8000
 
