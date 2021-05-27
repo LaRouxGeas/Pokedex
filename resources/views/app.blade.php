@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="/css/app.css">
     </head>
     <body>
+            <div><img src="{{url('img/Pokedex.svg')}}" alt="teste"></div>
         <div id="app" class="min-h-screen bg-red-600">
             <h1 class="text-center text-white text-3xl py-5">Pokédex</h1>
             <div class="container mx-auto bg-gray-300 mt-5 rounded-lg">
