@@ -1,6 +1,9 @@
 <template>
-	<div class="">
-		<h1 class="capitalize w-full py-3 text-center bg-gray-800 font-bold text-3xl text-white rounded-t-lg">{{nome}} Nº {{numero}}</h1>
+	<div class="flex justify-center">
+        <div class="w-80">
+            <img :src="imagem" class="w-full">
+        </div>
+		<!-- <h1 class="capitalize w-full py-3 text-center bg-gray-800 font-bold text-3xl text-white rounded-t-lg">{{nome}} No.{{numero}}</h1>
 		<div class="w-full h-full flex flex-wrap">
 			<div class="flex-none w-1/3">
 				<img :src="imagem" class="w-full object-cover">
@@ -23,7 +26,7 @@
 					<button class="m-0.5 py-2 px-3 text-white bg-gray-600 rounded-md text-center focus:ring-2 ring-gray-400">Voltar</button>
 				</router-link>
 			</div>
-		</div>
+		</div> -->
 
 	</div>
 </template>
